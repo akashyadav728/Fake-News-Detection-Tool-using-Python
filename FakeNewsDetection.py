@@ -31,8 +31,8 @@ def download_nltk_resources():
     return True
 
 # This will load datasets
-fake_path = r"C:\Users\Lenovo\OneDrive\Documents\__pycache__\QR code Generator\Projects\FakeNewsNet\dataset\politifact_fake.csv"
-real_path = r"C:\Users\Lenovo\OneDrive\Documents\__pycache__\QR code Generator\Projects\FakeNewsNet\dataset\politifact_real.csv"
+fake_path = r"##Path to Your dataset## "
+real_path = r"##Path to Your Dataset##"
 
 def load_and_prepare_data(fake_path, real_path):
     try:
